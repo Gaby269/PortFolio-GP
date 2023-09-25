@@ -21,16 +21,16 @@ function Header() {
         <div className="navbar-menu ordi text-light-3 font-w600 hover-text-dark text-right">
           <Link
             className="link navbar-link"
-            to="/"
+            to="/PortFolio-GP"
             id="accueil-link-ordi"
             activeClassName="active"
           >
             {t("accueil")}
           </Link>
-          {/*
+
           <Link
             className="link navbar-link"
-            to={"/projets"}
+            to="/PortFolio-GP/projets"
             id="projets-link-ordi"
             activeClassName="active"
           >
@@ -38,7 +38,7 @@ function Header() {
           </Link>
           <Link
             className="link navbar-link"
-            to={"/cv"}
+            to="/PortFolio-GP/cv"
             id="cv-link-ordi"
             activeClassName="active"
           >
@@ -46,12 +46,11 @@ function Header() {
           </Link>
           <Link
             className="link navbar-link"
-            to={"/contact"}
+            href="/PortFolio-GP/contact"
             id="contact-link-ordi"
-            activeClassName="active"
           >
             {t("contact")}
-          </Link>*/}
+          </Link>
         </div>
         <div
           className="navbar-logo ml-auto "
@@ -83,9 +82,9 @@ function Header() {
               alignItems: "center",
             }}
           >
-            {/*<Link
+            <Link
               className="link navbar-link"
-              to={"/"}
+              to="/PortFolio-GP"
               id="accueil-link-mobile"
               activeClassName="active"
               style={{
@@ -96,7 +95,7 @@ function Header() {
             </Link>
             <Link
               className="link navbar-link"
-              to={"/projets"}
+              to="/PortFolio-GP/projets"
               id="projets-link-mobile"
               activeClassName="active"
               style={{
@@ -104,7 +103,7 @@ function Header() {
               }}
             >
               {t("projets")}
-            </Link>*/}
+            </Link>
           </div>
           <div
             style={{
@@ -113,9 +112,9 @@ function Header() {
               marginTop: "-18px",
             }}
           >
-            {/*<Link
+            <Link
               className="link navbar-link"
-              to={"/cv"}
+              to="/PortFolio-GP/cv"
               id="cv-link-mobile"
               activeClassName="active"
               style={{
@@ -126,7 +125,7 @@ function Header() {
             </Link>
             <Link
               className="link navbar-link"
-              to={"/contact"}
+              to="/PortFolio-GP/contact"
               id="contact-link-mobile"
               activeClassName="active"
               style={{
@@ -134,7 +133,7 @@ function Header() {
               }}
             >
               {t("contact")}
-            </Link>*/}
+            </Link>
           </div>
         </div>
 
