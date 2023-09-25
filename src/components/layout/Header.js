@@ -21,7 +21,7 @@ function Header() {
         <div className="navbar-menu ordi text-light-3 font-w600 hover-text-dark text-right">
           <NavLink
             className="link navbar-link"
-            to={"/"}
+            to="/"
             id="accueil-link-ordi"
             activeClassName="active"
           >
