@@ -30,7 +30,7 @@ function Header() {
 
           <a
             className="link navbar-link"
-            href="https://gaby269.github.io/PortFolio-GP/ProjetsPage.js"
+            href="https://gaby269.github.io/PortFolio-GP/pages/projets"
             id="projets-link-ordi"
             activeClassName="active"
           >
@@ -38,7 +38,7 @@ function Header() {
           </a>
           <a
             className="link navbar-link"
-            href="https://gaby269.github.io/PortFolio-GP/CVPage.js"
+            href="https://gaby269.github.io/PortFolio-GP/pages/cv"
             id="cv-link-ordi"
             activeClassName="active"
           >
@@ -46,7 +46,7 @@ function Header() {
           </a>
           <a
             className="link navbar-link"
-            href="https://gaby269.github.io/PortFolio-GP/ContactPage.js"
+            href="https://gaby269.github.io/PortFolio-GP/pages/contact"
             id="contact-link-ordi"
           >
             {t("contact")}
