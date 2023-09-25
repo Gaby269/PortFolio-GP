@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/cartePresentation.css";
+import "../css/CartePresentation.css";
 import { useTranslation } from "react-i18next";
 
 function CartePresentation() {
