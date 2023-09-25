@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/PortFolio-GP/static/css/main.38b32a0a.css",
-    "main.js": "/PortFolio-GP/static/js/main.4bfe0a1f.js",
+    "main.css": "/PortFolio-GP/static/css/main.d3b4526f.css",
+    "main.js": "/PortFolio-GP/static/js/main.6c9dd01a.js",
     "static/js/787.595b4aa7.chunk.js": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js",
+    "static/media/CV_Gabrielle_POINTEAU_fr.pdf": "/PortFolio-GP/static/media/CV_Gabrielle_POINTEAU_fr.5bc40cddbb6159f39890.pdf",
+    "static/media/CV_Gabrielle_POINTEAU_en.pdf": "/PortFolio-GP/static/media/CV_Gabrielle_POINTEAU_en.4f66b6c0d7d8c0167213.pdf",
+    "static/media/logo_gpgh.png": "/PortFolio-GP/static/media/logo_gpgh.c92fe68d71c62178a947.png",
+    "static/media/CV_fr.png": "/PortFolio-GP/static/media/CV_fr.1d941180f3004d716476.png",
+    "static/media/CV_en.png": "/PortFolio-GP/static/media/CV_en.2115da234830c00ffb62.png",
+    "static/media/logo_jdd.png": "/PortFolio-GP/static/media/logo_jdd.aad88dfe79aedbbfcee2.png",
     "static/media/GP.png": "/PortFolio-GP/static/media/GP.11fae3b831ed3e6d9938.png",
+    "static/media/logo_colGra.png": "/PortFolio-GP/static/media/logo_colGra.45d774450d3fbe26b898.png",
+    "static/media/logoGP.png": "/PortFolio-GP/static/media/logoGP.27c57c40f44abdb44f4e.png",
     "index.html": "/PortFolio-GP/index.html",
-    "main.38b32a0a.css.map": "/PortFolio-GP/static/css/main.38b32a0a.css.map",
-    "main.4bfe0a1f.js.map": "/PortFolio-GP/static/js/main.4bfe0a1f.js.map",
+    "main.d3b4526f.css.map": "/PortFolio-GP/static/css/main.d3b4526f.css.map",
+    "main.6c9dd01a.js.map": "/PortFolio-GP/static/js/main.6c9dd01a.js.map",
     "787.595b4aa7.chunk.js.map": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38b32a0a.css",
-    "static/js/main.4bfe0a1f.js"
+    "static/css/main.d3b4526f.css",
+    "static/js/main.6c9dd01a.js"
   ]
 }
