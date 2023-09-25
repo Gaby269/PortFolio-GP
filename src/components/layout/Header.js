@@ -19,7 +19,7 @@ function Header() {
     <header style={headerHautPage}>
       <nav className="navbar shadow-1 primary amaranth dark-5">
         <div className="navbar-menu ordi text-light-3 font-w600 hover-text-dark text-right">
-          <NavLink
+          {/*<NavLink
             className="link navbar-link"
             to={"/"}
             id="accueil-link-ordi"
@@ -50,7 +50,7 @@ function Header() {
             activeClassName="active"
           >
             {t("contact")}
-          </NavLink>
+          </NavLink>*/}
         </div>
         <div
           className="navbar-logo ml-auto "

@@ -1,5 +1,4 @@
 import "./css/App.css";
-import Header from "./components/layout/Header.js";
 import CartePresentation from "./components/CartePresentation.js";
 
 function App() {
