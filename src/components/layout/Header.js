@@ -1,7 +1,7 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import GP from "../../images/GP.png";
+import GP from "../../GP.png";
 import "../../css/Header.css"; // Remplacez "votre-fichier-css.css" par le chemin vers votre fichier CSS
 
 import { useTranslation } from "react-i18next";

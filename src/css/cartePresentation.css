@@ -1,0 +1,35 @@
+.carte-presentation-centrer {
+  width: 90%; /* Ajustez la largeur de la carte selon vos préférences */
+  margin: 0 auto; /* Centre la carte horizontalement */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 81vh; /* Ajustez la hauteur minimale selon vos préférences */
+}
+
+/* Styles pour les petits écrans (téléphones) */
+@media (max-width: 638px) {
+  h3 {
+    font-size: 1.5rem; /* Taille de police plus petite pour h4 */
+  }
+
+  h1 {
+    font-size: 2rem; /* Taille de police plus petite pour h2 */
+  }
+}
+
+/* Styles pour les petits écrans (téléphones) */
+@media (max-width: 460px) {
+  h3 {
+    font-size: 1.3rem; /* Taille de police plus petite pour h4 */
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Taille de police plus petite pour h2 */
+  }
+
+  p {
+    font-size: 0.8rem; /* Taille de police pour les paragraphes */
+  }
+}

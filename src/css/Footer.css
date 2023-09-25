@@ -1,0 +1,6 @@
+/* Styles pour le texte à rendre invisible sur les téléphones */
+@media (max-width: 768px) {
+  .text-ordi {
+    display: none;
+  }
+}
