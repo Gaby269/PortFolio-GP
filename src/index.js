@@ -9,9 +9,7 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <Router>
-    <Switch>
-      <Route exact path="/" component={App} />
-    </Switch>
+    <App />
   </Router>,
   document.getElementById("root")
 );
