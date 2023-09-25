@@ -6,7 +6,7 @@ import CarteContact from "../components/CarteContact";
 //import logo from "./logo.svg";
 //import "./App.css";
 
-function Contact() {
+function ContactPage() {
   return (
     <div className="contact-page">
       <Header />
@@ -18,4 +18,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactPage;

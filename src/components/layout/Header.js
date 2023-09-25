@@ -19,38 +19,38 @@ function Header() {
     <header style={headerHautPage}>
       <nav className="navbar shadow-1 primary amaranth dark-5">
         <div className="navbar-menu ordi text-light-3 font-w600 hover-text-dark text-right">
-          <Link
+          <a
             className="link navbar-link"
-            to="/PortFolio-GP"
+            href="https://gaby269.github.io/PortFolio-GP/"
             id="accueil-link-ordi"
             activeClassName="active"
           >
             {t("accueil")}
-          </Link>
+          </a>
 
-          <Link
+          <a
             className="link navbar-link"
-            to="/PortFolio-GP/projets"
+            href="https://gaby269.github.io/PortFolio-GP/ProjetsPage.js"
             id="projets-link-ordi"
             activeClassName="active"
           >
             {t("projets")}
-          </Link>
-          <Link
+          </a>
+          <a
             className="link navbar-link"
-            to="/PortFolio-GP/cv"
+            href="https://gaby269.github.io/PortFolio-GP/CVPage.js"
             id="cv-link-ordi"
             activeClassName="active"
           >
             CV
-          </Link>
-          <Link
+          </a>
+          <a
             className="link navbar-link"
-            href="/PortFolio-GP/contact"
+            href="https://gaby269.github.io/PortFolio-GP/ContactPage.js"
             id="contact-link-ordi"
           >
             {t("contact")}
-          </Link>
+          </a>
         </div>
         <div
           className="navbar-logo ml-auto "
@@ -82,9 +82,9 @@ function Header() {
               alignItems: "center",
             }}
           >
-            <Link
+            {/*<Link
               className="link navbar-link"
-              to="/PortFolio-GP"
+              href="/PortFolio-GP"
               id="accueil-link-mobile"
               activeClassName="active"
               style={{
@@ -95,7 +95,7 @@ function Header() {
             </Link>
             <Link
               className="link navbar-link"
-              to="/PortFolio-GP/projets"
+              href="/PortFolio-GP/projets"
               id="projets-link-mobile"
               activeClassName="active"
               style={{
@@ -103,7 +103,7 @@ function Header() {
               }}
             >
               {t("projets")}
-            </Link>
+            </Link>*/}
           </div>
           <div
             style={{
@@ -112,9 +112,9 @@ function Header() {
               marginTop: "-18px",
             }}
           >
-            <Link
+            {/*<Link
               className="link navbar-link"
-              to="/PortFolio-GP/cv"
+              href="/PortFolio-GP/cv"
               id="cv-link-mobile"
               activeClassName="active"
               style={{
@@ -125,7 +125,7 @@ function Header() {
             </Link>
             <Link
               className="link navbar-link"
-              to="/PortFolio-GP/contact"
+              href="/PortFolio-GP/contact"
               id="contact-link-mobile"
               activeClassName="active"
               style={{
@@ -133,7 +133,7 @@ function Header() {
               }}
             >
               {t("contact")}
-            </Link>
+            </Link>*/}
           </div>
         </div>
 
