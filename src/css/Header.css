@@ -1,0 +1,67 @@
+#accueil-link-mobile:hover,
+#projets-link-mobile:hover,
+#cv-link-mobile:hover,
+#contact-link-mobile:hover,
+#accueil-link-ordi:hover,
+#projets-link-ordi:hover,
+#cv-link-ordi:hover,
+#contact-link-ordi:hover {
+  color: #dd7893; /* Couleur du texte au survol et pour le bouton actif */
+  font-weight: bold;
+}
+
+#accueil-link-mobile.active,
+#projets-link-mobile.active,
+#cv-link-mobile.active,
+#contact-link-mobile.active,
+#accueil-link-ordi.active,
+#projets-link-ordi.active,
+#cv-link-ordi.active,
+#contact-link-ordi.active {
+  color: #dd7893; /* Couleur du texte au survol et pour le bouton actif */
+  font-weight: bold;
+}
+
+#accueil-link-mobile,
+#projets-link-mobile,
+#cv-link-mobile,
+#contact-link-mobile {
+  display: none;
+}
+#accueil-link-ordi,
+#projets-link-ordi,
+#cv-link-ordi,
+#contact-link-ordi {
+  margin-left: auto;
+}
+.navbar {
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  #accueil-link-mobile,
+  #projets-link-mobile,
+  #cv-link-mobile,
+  #contact-link-mobile {
+    display: flex;
+  }
+
+  #accueil-link-ordi,
+  #projets-link-ordi,
+  #cv-link-ordi,
+  #contact-link-ordi {
+    display: none;
+  }
+
+  .navbar {
+    height: 100px;
+  }
+}
+@media (max-width: 360px) {
+  .navbar-logo {
+    display: none;
+  }
+  .navbar-brand {
+    display: none;
+  }
+}
