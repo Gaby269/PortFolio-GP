@@ -1,0 +1,23 @@
+.justify-text {
+  text-align: justify;
+}
+
+.card {
+  min-width: "200px";
+  max-width: "350px";
+}
+
+.icon-lg-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Si les icônes débordent de la largeur */
+  justify-content: flex-start; /* Alignement à gauche des icônes */
+}
+
+.icon-lg {
+  margin-right: 5px; /* Espacement entre les icônes */
+}
+
+.lienProjet {
+  justify-content: flex-end; /* Alignement à droite des icônes */
+}

@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Accueil from "./pages/AccueilPage.js";
-import Projets from "./pages/ProjectPage.js";
+import Projets from "./pages/ProjetsPage.js";
 import CV from "./pages/CVPage.js";
 import Contact from "./pages/ContactPage.js";
 

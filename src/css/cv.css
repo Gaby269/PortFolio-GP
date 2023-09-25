@@ -1,0 +1,34 @@
+/* Styles par défaut pour le bouton */
+.custom-btn {
+  color: #380613; /* Couleur du texte par défaut */
+  background-color: #fff; /* Couleur de fond par défaut */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  text-decoration: none;
+  border: 1px solid #380613; /* Bordure par défaut */
+  padding: 10px 20px; /* Espacement du texte par défaut */
+  border-radius: 5px; /* Coins arrondis par défaut */
+  display: inline-block;
+}
+
+/* Styles au survol du bouton */
+.custom-btn:hover {
+  color: #fff; /* Couleur du texte au survol */
+  background-color: #380613; /* Couleur de fond au survol */
+  border: 1px solid #380613; /* Bordure au survol */
+  text-decoration: none;
+}
+
+/* Style lorsqu'on est sur téléhpone*/
+@media (max-width: 365px) {
+  h2 {
+    font-size: 1.5rem; /* Taille de police plus petite pour h2 */
+  }
+}
+
+/* Styles pour les écrans mobiles (largeur maximale de 767px) */
+@media (max-width: 440px) {
+  .custom-btn {
+    padding: 5px 10px; /* Réduisez l'espacement du texte pour les écrans mobiles */
+    font-size: 10px;
+  }
+}
