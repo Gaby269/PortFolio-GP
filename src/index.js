@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "../node_modules/axentix/dist/axentix.min.css"; // Importez le fichier CSS de Axentix
 import "./css/index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
