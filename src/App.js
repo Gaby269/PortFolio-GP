@@ -1,12 +1,16 @@
 import "./css/App.css";
 import CartePresentation from "./components/CartePresentation.js";
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <main>
         <CartePresentation />
       </main>
+      <Footer />
     </div>
   );
 }

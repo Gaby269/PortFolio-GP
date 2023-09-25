@@ -19,7 +19,7 @@ function Header() {
     <header style={headerHautPage}>
       <nav className="navbar shadow-1 primary amaranth dark-5">
         <div className="navbar-menu ordi text-light-3 font-w600 hover-text-dark text-right">
-          <NavLink
+          {/*<NavLink
             className="link navbar-link"
             to={"/"}
             id="accueil-link-ordi"
@@ -50,7 +50,7 @@ function Header() {
             activeClassName="active"
           >
             {t("contact")}
-          </NavLink>
+          </NavLink>*/}
         </div>
         <div
           className="navbar-logo ml-auto "
@@ -82,7 +82,7 @@ function Header() {
               alignItems: "center",
             }}
           >
-            <NavLink
+            {/*<NavLink
               className="link navbar-link"
               to={"/"}
               id="accueil-link-mobile"
@@ -103,7 +103,7 @@ function Header() {
               }}
             >
               {t("projets")}
-            </NavLink>
+            </NavLink>*/}
           </div>
           <div
             style={{
@@ -112,7 +112,7 @@ function Header() {
               marginTop: "-18px",
             }}
           >
-            <NavLink
+            {/*<NavLink
               className="link navbar-link"
               to={"/cv"}
               id="cv-link-mobile"
@@ -133,7 +133,7 @@ function Header() {
               }}
             >
               {t("contact")}
-            </NavLink>
+            </NavLink>*/}
           </div>
         </div>
 
