@@ -1,6 +1,6 @@
 import React from "react";
 //import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import GP from "../../GP.png";
 import "../../css/Header.css"; // Remplacez "votre-fichier-css.css" par le chemin vers votre fichier CSS
 
@@ -19,39 +19,39 @@ function Header() {
     <header style={headerHautPage}>
       <nav className="navbar shadow-1 primary amaranth dark-5">
         <div className="navbar-menu ordi text-light-3 font-w600 hover-text-dark text-right">
-          <NavLink
+          <Link
             className="link navbar-link"
             to="/"
             id="accueil-link-ordi"
             activeClassName="active"
           >
             {t("accueil")}
-          </NavLink>
+          </Link>
           {/*
-          <NavLink
+          <Link
             className="link navbar-link"
             to={"/projets"}
             id="projets-link-ordi"
             activeClassName="active"
           >
             {t("projets")}
-          </NavLink>
-          <NavLink
+          </Link>
+          <Link
             className="link navbar-link"
             to={"/cv"}
             id="cv-link-ordi"
             activeClassName="active"
           >
             CV
-          </NavLink>
-          <NavLink
+          </Link>
+          <Link
             className="link navbar-link"
             to={"/contact"}
             id="contact-link-ordi"
             activeClassName="active"
           >
             {t("contact")}
-          </NavLink>*/}
+          </Link>*/}
         </div>
         <div
           className="navbar-logo ml-auto "
@@ -83,7 +83,7 @@ function Header() {
               alignItems: "center",
             }}
           >
-            {/*<NavLink
+            {/*<Link
               className="link navbar-link"
               to={"/"}
               id="accueil-link-mobile"
@@ -93,8 +93,8 @@ function Header() {
               }}
             >
               {t("accueil")}
-            </NavLink>
-            <NavLink
+            </Link>
+            <Link
               className="link navbar-link"
               to={"/projets"}
               id="projets-link-mobile"
@@ -104,7 +104,7 @@ function Header() {
               }}
             >
               {t("projets")}
-            </NavLink>*/}
+            </Link>*/}
           </div>
           <div
             style={{
@@ -113,7 +113,7 @@ function Header() {
               marginTop: "-18px",
             }}
           >
-            {/*<NavLink
+            {/*<Link
               className="link navbar-link"
               to={"/cv"}
               id="cv-link-mobile"
@@ -123,8 +123,8 @@ function Header() {
               }}
             >
               CV
-            </NavLink>
-            <NavLink
+            </Link>
+            <Link
               className="link navbar-link"
               to={"/contact"}
               id="contact-link-mobile"
@@ -134,7 +134,7 @@ function Header() {
               }}
             >
               {t("contact")}
-            </NavLink>*/}
+            </Link>*/}
           </div>
         </div>
 
