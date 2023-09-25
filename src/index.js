@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import ReactDOM from "react-dom";
 
 import "../node_modules/axentix/dist/axentix.min.css"; // Importez le fichier CSS de Axentix
 import "./css/index.css";
@@ -9,9 +9,8 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <Router>
-    <Switch>
-      <Route exact path="/" component={App} />
-    </Switch>
+    <Route exact path="/" component={App} />
+    {/* Ajoutez d'autres routes ici */}
   </Router>,
   document.getElementById("root")
 );
