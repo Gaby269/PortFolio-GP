@@ -1,7 +1,7 @@
 import React from "react";
-import LangageImages from "./data/langages.js";
-import "../css/projet.css";
-import "../css/cardProjetsMobile.css";
+import LangageImages from "../static/data/langages.js";
+import "../style/projet.css";
+import "../style/cardProjetsMobile.css";
 
 function CardMobile({
   Titre,

@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/cartePresentation.css";
+import "../style/cartePresentation.css";
 import { useTranslation } from "react-i18next";
 
 function CartePresentation() {
@@ -16,10 +16,10 @@ function CartePresentation() {
         <div className="card shadow-1 rounded-2 bd-#380613 bd-solid bd-3 ">
           <div className="text-left m-2 p-3">
             <div className="card-header">
-              <h3 className="text-left" style={amaranthDark5Style}>
+              <h3 className="portFolio text-left" style={amaranthDark5Style}>
                 {t("portFolio-de")}{" "}
               </h3>
-              <h1 className="text-left" style={amaranthDark5Style}>
+              <h1 className="nom-prenom text-left" style={amaranthDark5Style}>
                 Gabrielle POINTEAU
               </h1>
             </div>

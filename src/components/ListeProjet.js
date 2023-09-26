@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import TabProjetsOrdi from "./ItemTabProjetsOrdi";
 import CardProjetsMobile from "./ItemCardProjetsMobile";
-import projetsEn from "./data/projets-en"; // Importez le fichier de projets en anglais
-import projetsFr from "./data/projets-fr"; // Importez le fichier de projets en français
+import projetsEn from "../static/data/projets-en"; // Importez le fichier de projets en anglais
+import projetsFr from "../static/data/projets-fr"; // Importez le fichier de projets en français
 import { useTranslation } from "react-i18next";
 
 export default function ListeProjet() {

@@ -1,8 +1,8 @@
 // LanguageSelector.js
 
 import React from "react";
-import i18n from "../i18n"; // Assurez-vous que le chemin est correct
-import "../css/LangueSelection.css"; // Remplacez "votre-fichier-css.css" par le chemin vers votre fichier CSS
+import i18n from "../static/langues/i18n"; // Assurez-vous que le chemin est correct
+import "../style/LangueSelection.css"; // Remplacez "votre-fichier-css.css" par le chemin vers votre fichier CSS
 
 function LangueSelection() {
   const changeLanguage = (lng) => {

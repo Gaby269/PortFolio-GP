@@ -1,9 +1,9 @@
-import gp from "../../images/logoGP.png";
-import jdd from "../../images/logo_jdd.png";
-//import jddn from "../../images/logo_jddn.png";
-import gpgh from "../../images/logo_gpgh.png";
-import jdv from "../../images/jdv.png";
-import colGra from "../../images/logo_colGra.png";
+import gp from "../images/logoGP.png";
+import jdd from "../images/logo_jdd.png";
+//import jddn from "../images/logo_jddn.png";
+import gpgh from "../images/logo_gpgh.png";
+import jdv from "../images/jdv.png";
+import colGra from "../images/logo_colGra.png";
 
 const projets = [
   {

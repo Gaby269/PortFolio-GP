@@ -1,11 +1,11 @@
 import React from "react";
 //import { Link } from "react-router-dom";
-import { Link } from "react-router-dom";
-import GP from "../../GP.png";
-import "../../css/Header.css"; // Remplacez "votre-fichier-css.css" par le chemin vers votre fichier CSS
+import { NavLink } from "react-router-dom";
+import GP from "../static/images/GP.png";
+import "../style/Header.css"; // Remplacez "votre-fichier-css.css" par le chemin vers votre fichier CSS
 
 import { useTranslation } from "react-i18next";
-import LangageSelection from "../LangueSelection";
+import LangageSelection from "../components/LangueSelection";
 
 function Header() {
   const headerHautPage = {
@@ -19,38 +19,38 @@ function Header() {
     <header style={headerHautPage}>
       <nav className="navbar shadow-1 primary amaranth dark-5">
         <div className="navbar-menu ordi text-light-3 font-w600 hover-text-dark text-right">
-          <a
+          <NavLink
             className="link navbar-link"
-            href="https://gaby269.github.io/PortFolio-GP/"
+            to="%PUBLIC_URL%/"
             id="accueil-link-ordi"
             activeClassName="active"
           >
             {t("accueil")}
-          </a>
-
-          <a
+          </NavLink>
+          <NavLink
             className="link navbar-link"
-            href="https://gaby269.github.io/PortFolio-GP/pages/projets"
+            to="%PUBLIC_URL%/projets"
             id="projets-link-ordi"
             activeClassName="active"
           >
             {t("projets")}
-          </a>
-          <a
+          </NavLink>
+          <NavLink
             className="link navbar-link"
-            href="https://gaby269.github.io/PortFolio-GP/pages/cv"
+            to="%PUBLIC_URL%/cv"
             id="cv-link-ordi"
             activeClassName="active"
           >
             CV
-          </a>
-          <a
+          </NavLink>
+          <NavLink
             className="link navbar-link"
-            href="https://gaby269.github.io/PortFolio-GP/pages/contact"
+            to="%PUBLIC_URL%/contact"
             id="contact-link-ordi"
+            activeClassName="active"
           >
             {t("contact")}
-          </a>
+          </NavLink>
         </div>
         <div
           className="navbar-logo ml-auto "
@@ -82,28 +82,22 @@ function Header() {
               alignItems: "center",
             }}
           >
-            {/*<Link
+            <NavLink
               className="link navbar-link"
-              href="/PortFolio-GP"
+              to={"/PortFolio-GP/accueil"}
               id="accueil-link-mobile"
               activeClassName="active"
-              style={{
-                marginRight: "15px",
-              }}
             >
               {t("accueil")}
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               className="link navbar-link"
-              href="/PortFolio-GP/projets"
+              to={"/PortFolio-GP/projets"}
               id="projets-link-mobile"
               activeClassName="active"
-              style={{
-                marginRight: "15px",
-              }}
             >
               {t("projets")}
-            </Link>*/}
+            </NavLink>
           </div>
           <div
             style={{
@@ -112,28 +106,22 @@ function Header() {
               marginTop: "-18px",
             }}
           >
-            {/*<Link
+            <NavLink
               className="link navbar-link"
-              href="/PortFolio-GP/cv"
+              to={"/PortFolio-GP/cv"}
               id="cv-link-mobile"
               activeClassName="active"
-              style={{
-                marginRight: "15px",
-              }}
             >
               CV
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               className="link navbar-link"
-              href="/PortFolio-GP/contact"
+              to={"/PortFolio-GP/contact"}
               id="contact-link-mobile"
               activeClassName="active"
-              style={{
-                marginRight: "15px",
-              }}
             >
               {t("contact")}
-            </Link>*/}
+            </NavLink>
           </div>
         </div>
 

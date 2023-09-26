@@ -1,6 +1,6 @@
 import React from "react";
-import LangageImages from "./data/langages.js";
-import "../css/projet.css";
+import LangageImages from "../static/data/langages.js";
+import "../style/projet.css";
 
 function TabProjetsOrdi({
   Titre,

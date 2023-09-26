@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/carteContact.css"; // Importez votre fichier CSS
+import "../style/carteContact.css"; // Importez votre fichier CSS
 import { useTranslation } from "react-i18next";
 
 function CarteContact() {
