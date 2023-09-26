@@ -35,7 +35,7 @@
   margin-left: auto;
 }
 .navbar {
-  height: 80px;
+  height: 100px;
 }
 
 @media (max-width: 768px) {
@@ -63,5 +63,8 @@
   }
   .navbar-brand {
     display: none;
+  }
+  .navbar {
+    height: 100px;
   }
 }

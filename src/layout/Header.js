@@ -21,7 +21,7 @@ function Header() {
         <div className="navbar-menu ordi text-light-3 font-w600 hover-text-dark text-right">
           <NavLink
             className="link navbar-link"
-            to="%PUBLIC_URL%/"
+            to={`${process.env.PUBLIC_URL}/`}
             id="accueil-link-ordi"
             activeClassName="active"
           >
@@ -29,7 +29,7 @@ function Header() {
           </NavLink>
           <NavLink
             className="link navbar-link"
-            to="%PUBLIC_URL%/projets"
+            to={`${process.env.PUBLIC_URL}/projets`}
             id="projets-link-ordi"
             activeClassName="active"
           >
@@ -37,7 +37,7 @@ function Header() {
           </NavLink>
           <NavLink
             className="link navbar-link"
-            to="%PUBLIC_URL%/cv"
+            to={`${process.env.PUBLIC_URL}/cv`}
             id="cv-link-ordi"
             activeClassName="active"
           >
@@ -45,7 +45,7 @@ function Header() {
           </NavLink>
           <NavLink
             className="link navbar-link"
-            to="%PUBLIC_URL%/contact"
+            to={`${process.env.PUBLIC_URL}/contact`}
             id="contact-link-ordi"
             activeClassName="active"
           >
@@ -84,7 +84,7 @@ function Header() {
           >
             <NavLink
               className="link navbar-link"
-              to={"/PortFolio-GP/accueil"}
+              to={`${process.env.PUBLIC_URL}/`}
               id="accueil-link-mobile"
               activeClassName="active"
             >
@@ -92,7 +92,7 @@ function Header() {
             </NavLink>
             <NavLink
               className="link navbar-link"
-              to={"/PortFolio-GP/projets"}
+              to={`${process.env.PUBLIC_URL}/projets`}
               id="projets-link-mobile"
               activeClassName="active"
             >
@@ -108,7 +108,7 @@ function Header() {
           >
             <NavLink
               className="link navbar-link"
-              to={"/PortFolio-GP/cv"}
+              to={`${process.env.PUBLIC_URL}/cv`}
               id="cv-link-mobile"
               activeClassName="active"
             >
@@ -116,7 +116,7 @@ function Header() {
             </NavLink>
             <NavLink
               className="link navbar-link"
-              to={"/PortFolio-GP/contact"}
+              to={`${process.env.PUBLIC_URL}/contact`}
               id="contact-link-mobile"
               activeClassName="active"
             >

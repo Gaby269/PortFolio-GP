@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/cartePresentation.css";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 function CartePresentation() {
@@ -31,13 +32,23 @@ function CartePresentation() {
                 {t("text-presentation3")}{" "}
                 <strong>{t("text-presentation4")}</strong>
                 {t("text-presentation5")}{" "}
-                <a href="./projets" style={amaranthDark5Style}>
+                <NavLink
+                  className="link navbar-link"
+                  to={`${process.env.PUBLIC_URL}/projets`}
+                  style={amaranthDark5Style}
+                  id="projets-link-ordi"
+                >
                   {t("text-presentation6")}
-                </a>{" "}
+                </NavLink>{" "}
                 {t("text-presentation7")}{" "}
-                <a href="./cv" style={amaranthDark5Style}>
+                <NavLink
+                  className="link navbar-link"
+                  to={`${process.env.PUBLIC_URL}/cv`}
+                  style={amaranthDark5Style}
+                  id="cv-link-ordi"
+                >
                   {t("text-presentation8")}
-                </a>{" "}
+                </NavLink>{" "}
                 {t("text-presentation9")}
               </p>
             </div>
