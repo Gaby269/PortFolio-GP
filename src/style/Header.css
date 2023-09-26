@@ -34,16 +34,13 @@
 #contact-link-ordi {
   margin-left: auto;
 }
-.navbar {
-  height: 100px;
-}
 
-@media (max-width: 768px) {
+@media (max-width: 578px) {
   #accueil-link-mobile,
   #projets-link-mobile,
   #cv-link-mobile,
   #contact-link-mobile {
-    display: flex;
+    display: block;
   }
 
   #accueil-link-ordi,
@@ -57,6 +54,7 @@
     height: 100px;
   }
 }
+
 @media (max-width: 360px) {
   .navbar-logo {
     display: none;
@@ -64,7 +62,69 @@
   .navbar-brand {
     display: none;
   }
-  .navbar {
-    height: 100px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #380613;
+  color: white;
+  align-items: center;
+  padding: 0 0.5rem;
+  height: 80px;
+  line-height: 3rem;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar-logo {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navbar-logo a {
+  text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+/* Styles pour la classe .navbar-menu */
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Aligne les éléments à droite */
+  font-weight: 600; /*Pour mettre en gras*/
+  color: var(--text-light-3); /* Utilisez la couleur souhaitée */
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles pour le lien .navbar-brand (votre logo) */
+.navbar-brand {
+  text-align: center; /* Centre le texte horizontalement */
+}
+
+/* Styles pour l'image */
+.navbar-brand img {
+  display: flex; /* Pour éviter l'espace sous l'image */
+  justify-content: center; /* Centre horizontalement */
+  max-width: 100px; /* Ajustez cette valeur selon votre besoin */
+  max-height: 65px; /* Ajustez cette valeur selon votre besoin */
+  padding: 3px 0; /* Ajoute de l'espacement autour de l'image */
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0 0.6rem;
+  transition: background-color 0.23s ease;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-link {
+    padding: 0 0.4rem;
   }
 }

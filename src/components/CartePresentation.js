@@ -34,7 +34,7 @@ function CartePresentation() {
                 {t("text-presentation5")}{" "}
                 <NavLink
                   className="link navbar-link"
-                  to={`${process.env.PUBLIC_URL}/projets`}
+                  to={`${process.env.PUBLIC_URL}/` + `projets`}
                   style={amaranthDark5Style}
                   id="projets-link-ordi"
                 >

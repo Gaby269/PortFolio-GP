@@ -10,12 +10,12 @@ function Footer() {
     width: "100%",
   };
   return (
-    <footer className="d-flex fx-col amaranth dark-5" style={footerBasPage}>
-      <div className="footer p-1 amaranth dark-5 d-flex">
-        <p className="ml-3 text-ordi">
+    <footer className="d-flex fx-col" style={footerBasPage}>
+      <div className="footer p-1 d-flex">
+        <p className="text-ordi">
           <strong>Gabrielle POINTEAU</strong>
         </p>
-        <p className="ml-auto mr-3">
+        <p className="text-modif">
           {" "}
           {/*ml-auto pousse à droite le texte pour le mettre à droite*/}
           {/*Copyright © 2023 - */}

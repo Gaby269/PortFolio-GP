@@ -13,3 +13,11 @@
   color: #dd7893; /* Couleur du texte au survol et pour le bouton actif */
   font-weight: bold;
 }
+
+.langueSelection {
+  margin-left: auto;
+}
+
+.barre {
+  color: white;
+}

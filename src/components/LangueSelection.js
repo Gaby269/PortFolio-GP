@@ -10,19 +10,19 @@ function LangueSelection() {
   };
 
   return (
-    <div>
+    <div className="langueSelection">
       <button
         className={`langue-button ${i18n.language === "fr" ? "active" : ""}`}
         onClick={() => changeLanguage("fr")}
       >
-        &nbsp;FR&nbsp;
+        FR
       </button>
       |
       <button
         className={`langue-button ${i18n.language === "en" ? "active" : ""}`}
         onClick={() => changeLanguage("en")}
       >
-        EN&nbsp;
+        EN
       </button>
     </div>
   );

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./style/index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "../node_modules/axentix/dist/axentix.min.css"; // Importez le fichier CSS de Axentix
+//import "../node_modules/axentix/dist/axentix.min.css"; // Importez le fichier CSS de Axentix
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
