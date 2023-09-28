@@ -15,7 +15,7 @@ const projets = [
     DescriptionCorps:
       "Ce site a été réalisé en ReactJS pour pouvoir vous faire part de mes projets réalisés tout au long de mon cursus d'étude.",
     Langages: ["reactJS"],
-    GitHubRepo: "https://github.com/Gaby269/PortFolio",
+    GitHubRepo: "https://github.com/Gaby269/PortFolio-GP",
     Site: "https://gaby269.github.io/PortFolio-GP/",
   },
   {
