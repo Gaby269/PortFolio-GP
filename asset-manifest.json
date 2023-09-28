@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PortFolio-GP/static/css/main.f524dd7c.css",
+    "main.css": "/PortFolio-GP/static/css/main.08681351.css",
     "main.js": "/PortFolio-GP/static/js/main.612800cb.js",
     "static/js/787.595b4aa7.chunk.js": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js",
     "static/media/CV_Gabrielle_POINTEAU_fr.pdf": "/PortFolio-GP/static/media/CV_Gabrielle_POINTEAU_fr.5bc40cddbb6159f39890.pdf",
@@ -13,12 +13,12 @@
     "static/media/logo_colGra.png": "/PortFolio-GP/static/media/logo_colGra.45d774450d3fbe26b898.png",
     "static/media/logoGP.png": "/PortFolio-GP/static/media/logoGP.27c57c40f44abdb44f4e.png",
     "index.html": "/PortFolio-GP/index.html",
-    "main.f524dd7c.css.map": "/PortFolio-GP/static/css/main.f524dd7c.css.map",
+    "main.08681351.css.map": "/PortFolio-GP/static/css/main.08681351.css.map",
     "main.612800cb.js.map": "/PortFolio-GP/static/js/main.612800cb.js.map",
     "787.595b4aa7.chunk.js.map": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f524dd7c.css",
+    "static/css/main.08681351.css",
     "static/js/main.612800cb.js"
   ]
 }
