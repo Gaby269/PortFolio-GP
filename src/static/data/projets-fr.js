@@ -16,7 +16,7 @@ const projets = [
       "Ce site a été réalisé en ReactJS pour pouvoir vous faire part de mes projets réalisés tout au long de mon cursus d'étude.",
     Langages: ["reactJS"],
     GitHubRepo: "https://github.com/Gaby269/PortFolio",
-    Site: "https://github.com/Gaby269/PortFolio",
+    Site: "https://gaby269.github.io/PortFolio-GP/",
   },
   {
     Titre: "Jeu de Différence",
@@ -38,7 +38,7 @@ const projets = [
     DescriptionTitre: "Application de gestion des offres d'interimaire",
     DescriptionCorps:
       "Le projet consistait à créer une application mobile servant aux utilisateurs à mettre en ligne des offres d'emploi d'intérimaire par des entreprises ou des agences d'intérimaire et que les utilisateurs en tant que candidat puissent postuler aux différentes offres.",
-    Langages: ["android", "firebase"],
+    Langages: ["android", "firebase", "java"],
     GitHubRepo: "https://github.com/Gaby269/Application-Mobile-Interimaire",
     Site: "",
   },

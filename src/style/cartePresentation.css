@@ -1,11 +1,47 @@
 .carte-presentation-centrer {
-  width: 90%; /* Ajustez la largeur de la carte selon vos préférences */
+  width: 80%;
   margin: 0 auto; /* Centre la carte horizontalement */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 81vh; /* Ajustez la hauteur minimale selon vos préférences */
+  min-height: 77vh; /* Ajustez la hauteur minimale selon vos préférences */
+}
+
+.card-presentation {
+  max-width: "350px";
+  min-width: "200px";
+  align-items: center; /* Centre la carte verticalement */
+  position: relative;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Remplace shadow-1 */
+  border-radius: 0.5rem;
+  border: 3px solid #380613; /* Remplace bd-#380613 bd-solid bd-3 */
+}
+
+.texte-presentation {
+  padding: 2rem;
+}
+
+/* Styles CSS pour le NavLink en ligne */
+.NavLink #projets-mot #cv-mots {
+  display: inline; /* Affiche le lien en ligne avec le texte */
+  text-decoration: none; /* Enlève le soulignement du lien */
+}
+
+.card-header-pres {
+  font-size: 1.5rem;
+  padding: 0 0.75rem;
+}
+
+.card-content-pres {
+  padding: 0 0.75rem;
+  flex-grow: 1;
+}
+.card-content-pres p {
+  margin: 0 0 1rem 0;
+  text-align: justify;
 }
 
 /* Styles pour les petits écrans (téléphones) */
@@ -16,6 +52,12 @@
 
   h1 {
     font-size: 2rem; /* Taille de police plus petite pour h2 */
+  }
+  .texte-presentation {
+    padding: 1.5rem;
+  }
+  .carte-presentation-centrer {
+    width: 85%;
   }
 }
 
@@ -31,5 +73,13 @@
 
   p {
     font-size: 0.8rem; /* Taille de police pour les paragraphes */
+  }
+
+  .texte-presentation {
+    padding: 1rem;
+  }
+
+  .carte-presentation-centrer {
+    width: 90%;
   }
 }

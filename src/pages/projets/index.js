@@ -1,16 +1,14 @@
 import React from "react";
 import ListeProjets from "../../components/ListeProjet";
 import { useTranslation } from "react-i18next";
-
-//import logo from "./logo.svg";
-//import "./App.css";
+import "../../style/projet.css";
 
 function ProjetsPage() {
   const { t } = useTranslation();
   return (
     <div className="projets-page">
       <main>
-        <h2 className="p-3">{t("mes-projet")}</h2>
+        <h1 className="titre-projet">{t("mes-projet")}</h1>
         <ListeProjets />
       </main>
     </div>

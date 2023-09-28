@@ -16,13 +16,13 @@ function TabProjetsOrdi({
   return (
     <tr className="portfolio-item-ordi">
       <td>
-        <div className="d-flex vcenter">
+        <div className="div-image">
           <img
             src={Image}
             alt={Alt}
             width="125"
             height="125"
-            className="rounded-2 mr-2"
+            className="td-image"
           ></img>
           <p>
             <strong>{Titre}</strong>
@@ -35,11 +35,11 @@ function TabProjetsOrdi({
         <strong>{DescriptionTitre}</strong>
         <br />
         <br />
-        <div style={{ textAlign: "justify" }}>
+        <div className="td-description">
           <span className="text-grey">{DescriptionCorps}</span>
         </div>
       </td>
-      <td style={{ textAlign: "center", verticalAlign: "middle" }}>
+      <td className="td-langages">
         {Langages.map((langage) => (
           <div key={langage}>
             {LangageImages[langage]}
@@ -47,7 +47,7 @@ function TabProjetsOrdi({
           </div>
         ))}
       </td>
-      <td>
+      <td className="td-lien">
         {
           // Si il y a un lien git on l'affiche
           GitHubRepo !== "" && (
@@ -65,7 +65,7 @@ function TabProjetsOrdi({
             </a>
           )
         }
-        {/* Pour ajouter des lignes de vide*/}
+        {/* Pour ajouter des lignes de vide si il y a deux liens */}
         {GitHubRepo !== "" && Site !== "" && <br />}
         {GitHubRepo !== "" && Site !== "" && <br />}
         {

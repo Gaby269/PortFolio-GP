@@ -11,7 +11,7 @@ function Footer() {
   };
   return (
     <footer className="d-flex fx-col" style={footerBasPage}>
-      <div className="footer p-1 d-flex">
+      <div className="footer">
         <p className="text-ordi">
           <strong>Gabrielle POINTEAU</strong>
         </p>

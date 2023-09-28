@@ -9,7 +9,7 @@ function CVPage() {
   return (
     <div className="cv-page">
       <main>
-        <h2 className="pl-5 pt-5">Curriculum Vitae</h2>
+        <h1 className="titre-cv">Curriculum Vitae</h1>
         <CV />
       </main>
     </div>

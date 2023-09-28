@@ -60,7 +60,7 @@ function Header() {
           </NavLink>
         </div>
 
-        <div className="navbar-menu mobile text-light-3 font-w600 text-right">
+        <div className="navbar-menu mobile text-light-3 font-w600 text-center">
           <div
             style={{
               display: "flex",

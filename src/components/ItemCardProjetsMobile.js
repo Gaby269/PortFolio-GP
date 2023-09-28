@@ -1,7 +1,6 @@
 import React from "react";
 import LangageImages from "../static/data/langages.js";
 import "../style/projet.css";
-import "../style/cardProjetsMobile.css";
 
 function CardMobile({
   Titre,
@@ -15,23 +14,23 @@ function CardMobile({
   Site,
 }) {
   return (
-    <div className="card white rounded-2 shadow-1 mx-auto">
+    <div className="card card-mobile">
       <div className="card-image">
-        <img src={Image} className="responsive-media" alt={Alt} />
+        <img src={Image} className="responsive-media image-ronde" alt={Alt} />
       </div>
 
       <div className="card-content">
-        <span className="h3">
+        <span class="h3">
           <strong>{Titre}</strong>
         </span>
-        <div className="font-s3 mt-1 text-grey text-light-2">{Date}</div>
-        <div className="mt-3 justify-text">
+        <div className="card-date">{Date}</div>
+        <div className="card-desc">
           <strong>{DescriptionTitre} :</strong> {DescriptionCorps}
         </div>
       </div>
 
-      <div className="card-footer d-flex mt-1">
-        <div className="font-s5 my-auto mr-3">
+      <div className="card-footer">
+        <div className="card-langage">
           <div className="icon-lg-container">
             {Langages &&
               Langages.map((langage) => (
@@ -41,7 +40,7 @@ function CardMobile({
               ))}
           </div>
         </div>
-        <div className="ml-auto my-auto">
+        <div className="card-lien">
           {GitHubRepo && ( // Vérifie si GitHubRepo n'est pas vide
             <a className="lienProjet" href={GitHubRepo}>
               <svg
@@ -57,7 +56,7 @@ function CardMobile({
             </a>
           )}
           {Site && ( // Vérifie si Site n'est pas vide
-            <a className="lienProjet ml-3" href={Site}>
+            <a className="lienProjet lienSite" href={Site}>
               <svg
                 role="img"
                 viewBox="0 0 24 24"

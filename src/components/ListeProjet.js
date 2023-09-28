@@ -4,6 +4,7 @@ import CardProjetsMobile from "./ItemCardProjetsMobile";
 import projetsEn from "../static/data/projets-en"; // Importez le fichier de projets en anglais
 import projetsFr from "../static/data/projets-fr"; // Importez le fichier de projets en français
 import { useTranslation } from "react-i18next";
+import "../style/projet.css";
 
 export default function ListeProjet() {
   const { t, i18n } = useTranslation();
@@ -36,7 +37,7 @@ export default function ListeProjet() {
   return (
     <section id="projet">
       <div className="portfolio-list">
-        <div className="card white light-shadow-2 p-3 rounded-2">
+        <div className="card card-projet white light-shadow-2 p-3 rounded-2">
           {isMobile ? (
             projets.map((projet, index) => (
               <CardProjetsMobile
@@ -53,7 +54,7 @@ export default function ListeProjet() {
             ))
           ) : (
             <div className="table-responsive">
-              <table className="table">
+              <table className="table table-projet">
                 <thead>
                   <tr>
                     <th>{t("nom-projet")}</th>

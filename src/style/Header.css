@@ -49,10 +49,6 @@
   #contact-link-ordi {
     display: none;
   }
-
-  .navbar {
-    height: 100px;
-  }
 }
 
 @media (max-width: 360px) {
@@ -72,11 +68,17 @@
   align-items: center;
   padding: 0 0.5rem;
   height: 80px;
-  line-height: 3rem;
+  line-height: 3.3rem;
   top: 0;
   left: 0;
   right: 0;
 }
+@media (max-width: 578px) {
+  .navbar {
+    height: 100px;
+  }
+}
+
 .navbar-logo {
   display: flex;
   justify-content: center; /* Centre horizontalement */
@@ -93,11 +95,17 @@
 .navbar-menu {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Aligne les éléments à droite */
+  align-items: center;
   font-weight: 600; /*Pour mettre en gras*/
   color: var(--text-light-3); /* Utilisez la couleur souhaitée */
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 578px) {
+  .navbar-menu {
+    display: block;
+  }
 }
 
 /* Styles pour le lien .navbar-brand (votre logo) */

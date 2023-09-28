@@ -16,7 +16,7 @@ const projets = [
       "This site has been created in ReactJS so that I can share with you the projects I've completed throughout my studies.",
     Langages: ["reactJS"],
     GitHubRepo: "https://github.com/Gaby269/PortFolio",
-    Site: "https://gaby269.github.io/PortFolio-GP",
+    Site: "https://gaby269.github.io/PortFolio-GP/",
   },
   {
     Titre: "Game of Difference",
@@ -38,7 +38,7 @@ const projets = [
     DescriptionTitre: "Application for managing temporary employment offers",
     DescriptionCorps:
       "The project consisted in creating a mobile application that users could use to post temping job offers online from companies or temping agencies, and that users as candidates could apply to the various offers.",
-    Langages: ["android", "firebase"],
+    Langages: ["android", "firebase", "java"],
     GitHubRepo: "https://github.com/Gaby269/Application-Mobile-Interimaire",
     Site: "",
   },

@@ -14,9 +14,9 @@ function CartePresentation() {
   return (
     <div className="carte-presentation carte-presentation-centrer ">
       <div className="container">
-        <div className="card shadow-1 rounded-2 bd-#380613 bd-solid bd-3 ">
-          <div className="text-left m-2 p-3">
-            <div className="card-header">
+        <div className="card card-presentation">
+          <div className="texte-presentation">
+            <div className="card-header-pres">
               <h3 className="portFolio text-left" style={amaranthDark5Style}>
                 {t("portFolio-de")}{" "}
               </h3>
@@ -24,7 +24,7 @@ function CartePresentation() {
                 Gabrielle POINTEAU
               </h1>
             </div>
-            <div className="card-content">
+            <div className="card-content-pres">
               <p className="text-justify">
                 {"\t"}
                 {t("text-presentation1")}{" "}
@@ -33,19 +33,17 @@ function CartePresentation() {
                 <strong>{t("text-presentation4")}</strong>
                 {t("text-presentation5")}{" "}
                 <NavLink
-                  className="link navbar-link"
                   to={`${process.env.PUBLIC_URL}/` + `projets`}
                   style={amaranthDark5Style}
-                  id="projets-link-ordi"
+                  id="projets-mot"
                 >
                   {t("text-presentation6")}
                 </NavLink>{" "}
                 {t("text-presentation7")}{" "}
                 <NavLink
-                  className="link navbar-link"
                   to={`${process.env.PUBLIC_URL}/cv`}
                   style={amaranthDark5Style}
-                  id="cv-link-ordi"
+                  id="cv-mot"
                 >
                   {t("text-presentation8")}
                 </NavLink>{" "}
