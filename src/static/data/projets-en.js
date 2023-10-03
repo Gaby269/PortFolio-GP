@@ -7,6 +7,18 @@ import colGra from "../images/logo_colGra.png";
 
 const projets = [
   {
+    Titre: "CatsQuizz",
+    Alt: "CatsQuizz",
+    Image: gp,
+    Date: "September - October 2023",
+    DescriptionTitre: "Game to learn about cat breeds",
+    DescriptionCorps:
+      "Learn and practise your knowledge of cat breeds. You can learn about cat breeds and then play the various games (currently only 1).",
+    Langages: ["html", "css", "js"],
+    GitHubRepo: "https://github.com/Gaby269/CatsQuizz",
+    Site: "https://gaby269.github.io/CatsQuizz",
+  },
+  {
     Titre: "Portfolio",
     Alt: "PortFolio",
     Image: gp,

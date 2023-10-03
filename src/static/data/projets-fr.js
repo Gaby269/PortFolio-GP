@@ -7,6 +7,18 @@ import colGra from "../images/logo_colGra.png";
 
 const projets = [
   {
+    Titre: "CatsQuizz",
+    Alt: "CatsQuizz",
+    Image: gp,
+    Date: "Septembre - Octobre 2023",
+    DescriptionTitre: "Jeu pour apprendre les races de chat",
+    DescriptionCorps:
+      "Jeu qui permet d'apprendre et de s'entrainer sur ses connaissances sur les races de chats. Vous pouvez apprendre des informations sur les races de chats puis de jouer aux différents jeux (pour l'instant 1 seul).",
+    Langages: ["html", "css", "js"],
+    GitHubRepo: "https://github.com/Gaby269/CatsQuizz",
+    Site: "https://gaby269.github.io/CatsQuizz",
+  },
+  {
     Titre: "Portfolio",
     Alt: "PortFolio",
     Image: gp,
