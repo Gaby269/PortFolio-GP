@@ -1,3 +1,4 @@
+import cats from "../images/logo_catsquizz.png";
 import gp from "../images/logoGP.png";
 import jdd from "../images/logo_jdd.png";
 //import jddn from "../images/logo_jddn.png";
@@ -9,7 +10,7 @@ const projets = [
   {
     Titre: "CatsQuizz",
     Alt: "CatsQuizz",
-    Image: gp,
+    Image: cats,
     Date: "Septembre - Octobre 2023",
     DescriptionTitre: "Jeu pour apprendre les races de chat",
     DescriptionCorps:

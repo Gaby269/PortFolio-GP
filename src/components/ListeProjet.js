@@ -12,7 +12,7 @@ export default function ListeProjet() {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 700);
 
   useEffect(() => {
-    // Fonction pour charger les projets en fonction de la langue
+    // Fonction pour charger les projets en fonction de la langues
     const loadProjets = () => {
       if (i18n.language === "en") {
         setProjets(projetsEn); // Chargez les projets en anglais
