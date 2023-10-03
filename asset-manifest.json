@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/PortFolio-GP/static/css/main.799d67c1.css",
-    "main.js": "/PortFolio-GP/static/js/main.324b77c3.js",
+    "main.js": "/PortFolio-GP/static/js/main.a169e93e.js",
     "static/js/787.595b4aa7.chunk.js": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js",
+    "static/media/logo_catsquizz.png": "/PortFolio-GP/static/media/logo_catsquizz.786570cefd7724212bc6.png",
     "static/media/CV_Gabrielle_POINTEAU_fr.pdf": "/PortFolio-GP/static/media/CV_Gabrielle_POINTEAU_fr.b5796bf8c100a49aee92.pdf",
     "static/media/CV_Gabrielle_POINTEAU_en.pdf": "/PortFolio-GP/static/media/CV_Gabrielle_POINTEAU_en.d23571899361358dccaf.pdf",
     "static/media/CV_fr.png": "/PortFolio-GP/static/media/CV_fr.83625ccb8a012522b577.png",
@@ -14,11 +15,11 @@
     "static/media/logoGP.png": "/PortFolio-GP/static/media/logoGP.27c57c40f44abdb44f4e.png",
     "index.html": "/PortFolio-GP/index.html",
     "main.799d67c1.css.map": "/PortFolio-GP/static/css/main.799d67c1.css.map",
-    "main.324b77c3.js.map": "/PortFolio-GP/static/js/main.324b77c3.js.map",
+    "main.a169e93e.js.map": "/PortFolio-GP/static/js/main.a169e93e.js.map",
     "787.595b4aa7.chunk.js.map": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.799d67c1.css",
-    "static/js/main.324b77c3.js"
+    "static/js/main.a169e93e.js"
   ]
 }
