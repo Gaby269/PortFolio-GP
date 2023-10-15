@@ -8,6 +8,18 @@ import colGra from "../images/logo_colGra.png";
 
 const projets = [
   {
+    Titre: "Gestion de tournois sportifs",
+    Alt: "Tournois-Sportif",
+    Image: cats,
+    Date: "Octobre 2023 en cours",
+    DescriptionTitre: "Site pour gérer différents tournois sportifs",
+    DescriptionCorps:
+      "L'idée de ce projet était de refaire le projet de L2 qui était de réaliser un site en PHP, HTML et CSS mais à l'aide du framework Symfony.",
+    Langages: ["symfony", "html", "css", "js"],
+    GitHubRepo: "https://github.com/Gaby269/Gestion-Tournois-Sportif",
+    Site: "",
+  },
+  {
     Titre: "CatsQuizz",
     Alt: "CatsQuizz",
     Image: cats,
