@@ -5,12 +5,13 @@ import jdd from "../images/logo_jdd.png";
 import gpgh from "../images/logo_gpgh.png";
 import jdv from "../images/jdv.png";
 import colGra from "../images/logo_colGra.png";
+import gts from "../images/logo_gts.png";
 
 const projets = [
   {
     Titre: "Managing sports tournaments",
     Alt: "Tournois-Sportif",
-    Image: cats,
+    Image: gts,
     Date: "October 2023 in progress",
     DescriptionTitre: "Website for managing various sports tournaments",
     DescriptionCorps:
