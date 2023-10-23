@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import cv_fr from "../static/images/CV_fr.png"; // Assurez-vous que le chemin est correct
 import cv_en from "../static/images/CV_en.png"; // Assurez-vous que le chemin est correct
-import cv_pdf_fr from "../static/ressources/CV_Gabrielle_POINTEAU_fr.pdf";
+import cv_pdf_fr from "../static/ressources/CV-POINTEAU-Gabrielle_fr.pdf";
 import cv_pdf_en from "../static/ressources/CV_Gabrielle_POINTEAU_en.pdf";
 import "../style/cv.css";
 import { useTranslation } from "react-i18next";
