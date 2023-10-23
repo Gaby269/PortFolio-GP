@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/PortFolio-GP/static/css/main.799d67c1.css",
-    "main.js": "/PortFolio-GP/static/js/main.091fc2fc.js",
+    "main.js": "/PortFolio-GP/static/js/main.a266f80b.js",
     "static/js/787.595b4aa7.chunk.js": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js",
     "static/media/logo_catsquizz.png": "/PortFolio-GP/static/media/logo_catsquizz.48a1a308b4ef5910d86a.png",
-    "static/media/CV_Gabrielle_POINTEAU_fr.pdf": "/PortFolio-GP/static/media/CV_Gabrielle_POINTEAU_fr.b5796bf8c100a49aee92.pdf",
+    "static/media/CV-POINTEAU-Gabrielle_fr.pdf": "/PortFolio-GP/static/media/CV-POINTEAU-Gabrielle_fr.10035b61a72d6ac98418.pdf",
     "static/media/CV_Gabrielle_POINTEAU_en.pdf": "/PortFolio-GP/static/media/CV_Gabrielle_POINTEAU_en.d23571899361358dccaf.pdf",
-    "static/media/CV_fr.png": "/PortFolio-GP/static/media/CV_fr.83625ccb8a012522b577.png",
     "static/media/logo_gpgh.png": "/PortFolio-GP/static/media/logo_gpgh.c92fe68d71c62178a947.png",
+    "static/media/CV_fr.png": "/PortFolio-GP/static/media/CV_fr.4d66d58af2fc82cfa608.png",
     "static/media/CV_en.png": "/PortFolio-GP/static/media/CV_en.2b3e649f94c45145003b.png",
     "static/media/logo_gts.png": "/PortFolio-GP/static/media/logo_gts.cc366614209a0c23698c.png",
     "static/media/logo_jdd.png": "/PortFolio-GP/static/media/logo_jdd.aad88dfe79aedbbfcee2.png",
@@ -16,11 +16,11 @@
     "static/media/logoGP.png": "/PortFolio-GP/static/media/logoGP.27c57c40f44abdb44f4e.png",
     "index.html": "/PortFolio-GP/index.html",
     "main.799d67c1.css.map": "/PortFolio-GP/static/css/main.799d67c1.css.map",
-    "main.091fc2fc.js.map": "/PortFolio-GP/static/js/main.091fc2fc.js.map",
+    "main.a266f80b.js.map": "/PortFolio-GP/static/js/main.a266f80b.js.map",
     "787.595b4aa7.chunk.js.map": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.799d67c1.css",
-    "static/js/main.091fc2fc.js"
+    "static/js/main.a266f80b.js"
   ]
 }
