@@ -6,6 +6,7 @@ import gpgh from "../images/logo_gpgh.png";
 import jdv from "../images/jdv.png";
 import colGra from "../images/logo_colGra.png";
 import gts from "../images/logo_gts.png";
+import ml from "../images/logo_fakenews.jpg";
 
 const projets = [
   {
@@ -16,7 +17,7 @@ const projets = [
     DescriptionTitre: "Site pour gérer différents tournois sportifs",
     DescriptionCorps:
       "L'idée de ce projet était de refaire le projet de L2 qui était de réaliser un site en PHP, HTML et CSS mais à l'aide du framework Symfony.",
-    Langages: ["symfony", "html", "css", "js"],
+    Langages: ["symfony", "js", "css", "boostrap"],
     GitHubRepo: "https://github.com/Gaby269/Gestion-Tournois-Sportif",
     Site: "",
   },
@@ -28,7 +29,7 @@ const projets = [
     DescriptionTitre: "Jeu pour apprendre les races de chat",
     DescriptionCorps:
       "Jeu qui permet d'apprendre et de s'entrainer sur ses connaissances sur les races de chats. Vous pouvez apprendre des informations sur les races de chats puis de jouer aux différents jeux (pour l'instant 1 seul).",
-    Langages: ["html", "css", "js"],
+    Langages: ["html", "css", "axentix", "js"],
     GitHubRepo: "https://github.com/Gaby269/CatsQuizz",
     Site: "https://gaby269.github.io/CatsQuizz",
   },
@@ -40,7 +41,7 @@ const projets = [
     DescriptionTitre: "Site pour présenter mes travaux",
     DescriptionCorps:
       "Ce site a été réalisé en ReactJS pour pouvoir vous faire part de mes projets réalisés tout au long de mon cursus d'étude.",
-    Langages: ["reactJS"],
+    Langages: ["reactJS", "css"],
     GitHubRepo: "https://github.com/Gaby269/PortFolio-GP",
     Site: "https://gaby269.github.io/PortFolio-GP/",
   },
@@ -79,6 +80,18 @@ const projets = [
       "L'idée de ce projet était de réaliser, avec la base Jeux de Mots, un questionnaire visant à répondre à des questions simples comme 'Est ce qu'un chat peut manger ?'. Nous devions poser une question au programme et celui-ci répond par oui ou par non et nous fournit une explication en fonction de ce qu'il trouvait, par inférence, dans la base de données Jeux de Mots. Pour plus d'explication voire le README sur GitHub.",
     Langages: ["python"],
     GitHubRepo: "https://github.com/Gaby269/Projet_Inference_Langage_Naturel",
+    Site: "",
+  },
+  {
+    Titre: "Machine Learning",
+    Alt: "Marchine-Learning",
+    Image: ml,
+    Date: "Février - Mai 2023",
+    DescriptionTitre: "Projet de detection de fake news",
+    DescriptionCorps:
+      "L'idée de ce projet était d'utiliser les concept de machine learning pour réaliser de la détection de fake news, en utilisant le langage de programmation Python.",
+    Langages: ["python"],
+    GitHubRepo: "https://github.com/ArnaudCs/Projet-ML",
     Site: "",
   },
   {

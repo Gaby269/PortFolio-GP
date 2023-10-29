@@ -6,6 +6,7 @@ import gpgh from "../images/logo_gpgh.png";
 import jdv from "../images/jdv.png";
 import colGra from "../images/logo_colGra.png";
 import gts from "../images/logo_gts.png";
+import ml from "../images/logo_fakenews.jpg";
 
 const projets = [
   {
@@ -16,7 +17,7 @@ const projets = [
     DescriptionTitre: "Website for managing various sports tournaments",
     DescriptionCorps:
       "The idea of this project was to redo the L2 project, which was to create a website in PHP, HTML and CSS using the Symfony framework.",
-    Langages: ["symfony", "html", "css", "js"],
+    Langages: ["symfony", "js", "css", "boostrap"],
     GitHubRepo: "https://github.com/Gaby269/Gestion-Tournois-Sportif",
     Site: "",
   },
@@ -28,7 +29,7 @@ const projets = [
     DescriptionTitre: "Game to learn about cat breeds",
     DescriptionCorps:
       "Learn and practise your knowledge of cat breeds. You can learn about cat breeds and then play the various games (currently only 1).",
-    Langages: ["html", "css", "js"],
+    Langages: ["html", "css", "axentix", "js"],
     GitHubRepo: "https://github.com/Gaby269/CatsQuizz",
     Site: "https://gaby269.github.io/CatsQuizz",
   },
@@ -79,6 +80,18 @@ const projets = [
       "The idea behind this project was to use the Jeux de Mots database to create a questionnaire designed to answer simple questions such as 'Can a cat eat?'. We would ask the program a question, and it would answer yes or no and provide us with an explanation based on what it found, by inference, in the Jeux de Mots database. For more information, see the README on GitHub.",
     Langages: ["python"],
     GitHubRepo: "https://github.com/Gaby269/Projet_Inference_Langage_Naturel",
+    Site: "",
+  },
+  {
+    Titre: "Machine Learning",
+    Alt: "Marchine-Learning",
+    Image: ml,
+    Date: "Février - Mai 2023",
+    DescriptionTitre: "Fake news detection project",
+    DescriptionCorps:
+      "The idea of this project was to use machine learning concepts to perform fake news detection, using the Python programming language.",
+    Langages: ["python"],
+    GitHubRepo: "https://github.com/ArnaudCs/Projet-ML",
     Site: "",
   },
   {
