@@ -22,16 +22,16 @@ const projets = [
     Site: "",
   },
   {
-    Titre: "CatsQuizz",
+    Titre: "CatsQuizz and DogsQuizz",
     Alt: "CatsQuizz",
     Image: cats,
     Date: "Septembre - Octobre 2023",
-    DescriptionTitre: "Jeu pour apprendre les races de chat",
+    DescriptionTitre: "Jeu pour apprendre les races de chat et de chien",
     DescriptionCorps:
-      "Jeu qui permet d'apprendre et de s'entrainer sur ses connaissances sur les races de chats. Vous pouvez apprendre des informations sur les races de chats puis de jouer aux différents jeux (pour l'instant 1 seul).",
+      "Jeu qui permet d'apprendre et de s'entrainer sur ses connaissances sur les races de chats et de chiens. Vous pouvez apprendre des informations sur les races de chats et de chiens puis de jouer aux différents jeux (pour l'instant 1 seul).",
     Langages: ["html", "css", "axentix", "js"],
-    GitHubRepo: "https://github.com/Gaby269/CatsQuizz",
-    Site: "https://gaby269.github.io/CatsQuizz",
+    GitHubRepo: "https://github.com/Gaby269/Breed-CatsDogs-Quizz",
+    Site: "https://gaby269.github.io/Breed-CatsDogs-Quizz",
   },
   {
     Titre: "Portfolio",
