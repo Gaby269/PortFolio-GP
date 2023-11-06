@@ -7,8 +7,21 @@ import jdv from "../images/jdv.png";
 import colGra from "../images/logo_colGra.png";
 import gts from "../images/logo_gts.png";
 import ml from "../images/logo_fakenews.jpg";
+import biblioP from "../images/logo_biblio_pointeau";
 
 const projets = [
+  {
+    Titre: "Bibliothèques des POINTEAU",
+    Image: biblioP,
+    Alt: "BiblioPOINTEAU",
+    Date: "Novembre 2023",
+    DescriptionTitre: "Projet de programmation web personnel",
+    DescriptionCorps:
+      "Ce projet consiste à permettre à ma famille d'avoir accès aux livres, cd ou encore partitions etc... que chacun aurait dans sa bibliothèque. En effet, cela faciliterait au niveau des cadeaux d'éviter les doublons. Ainsi, ce projet est un projet web utilisant firebase pour stocker les données.",
+    Langages: ["html", "css", "js", "firebase"],
+    GitHubRepo: "https://github.com/Gaby269/Bibliotheques-des-POINTEAU",
+    Site: "",
+  },
   {
     Titre: "Gestion de tournois sportifs",
     Alt: "Tournois-Sportif",
