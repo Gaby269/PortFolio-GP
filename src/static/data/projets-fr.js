@@ -7,7 +7,7 @@ import jdv from "../images/jdv.png";
 import colGra from "../images/logo_colGra.png";
 import gts from "../images/logo_gts.png";
 import ml from "../images/logo_fakenews.jpg";
-import biblioP from "../images/logo_biblio_pointeau";
+import biblioP from "../images/logo_biblio_pointeau.png";
 
 const projets = [
   {
