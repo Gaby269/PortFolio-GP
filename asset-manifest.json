@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortFolio-GP/static/css/main.799d67c1.css",
-    "main.js": "/PortFolio-GP/static/js/main.20e4c987.js",
+    "main.js": "/PortFolio-GP/static/js/main.3aecbf0a.js",
     "static/js/787.595b4aa7.chunk.js": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js",
     "static/media/logo_dw_zoo.png": "/PortFolio-GP/static/media/logo_dw_zoo.adc453f580e507b1c6e2.png",
     "static/media/logo_catsquizz.png": "/PortFolio-GP/static/media/logo_catsquizz.48a1a308b4ef5910d86a.png",
@@ -19,11 +19,11 @@
     "static/media/logoGP.png": "/PortFolio-GP/static/media/logoGP.27c57c40f44abdb44f4e.png",
     "index.html": "/PortFolio-GP/index.html",
     "main.799d67c1.css.map": "/PortFolio-GP/static/css/main.799d67c1.css.map",
-    "main.20e4c987.js.map": "/PortFolio-GP/static/js/main.20e4c987.js.map",
+    "main.3aecbf0a.js.map": "/PortFolio-GP/static/js/main.3aecbf0a.js.map",
     "787.595b4aa7.chunk.js.map": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.799d67c1.css",
-    "static/js/main.20e4c987.js"
+    "static/js/main.3aecbf0a.js"
   ]
 }
