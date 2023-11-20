@@ -8,6 +8,7 @@ import colGra from "../images/logo_colGra.png";
 import gts from "../images/logo_gts.png";
 import ml from "../images/logo_fakenews.jpg";
 import biblioP from "../images/logo_biblio_pointeau.png";
+import zoo from "../images/logo_dw_zoo.png";
 
 const projets = [
   {
@@ -105,6 +106,19 @@ const projets = [
       "The idea of this project was to use machine learning concepts to perform fake news detection, using the Python programming language.",
     Langages: ["python"],
     GitHubRepo: "https://github.com/ArnaudCs/Projet-ML",
+    Site: "",
+  },
+
+  {
+    Titre: "Zoo or animal park management",
+    Image: zoo,
+    Alt: "DW-ZOO",
+    Date: "November - December 2022",
+    DescriptionTitre: "Data warehouse project",
+    DescriptionCorps:
+      "This project involved creating its own data warehouse. We chose to work on the management of a zoo or animal park with the aim of improving the lives of the animals by increasing the park's turnover. This project was carried out in SQL.",
+    Langages: ["oracle", "plsql"],
+    GitHubRepo: "https://github.com/Gaby269/Data-Warehouse-Zoo",
     Site: "",
   },
   {

@@ -204,6 +204,14 @@ const LangageImages = {
       height="40"
     />
   ),
+  plsql: (
+    <img
+      src="https://cdn.educba.com/academy/wp-content/uploads/2019/01/PL-SQL-Commands1.jpg"
+      alt="vuejs"
+      width="80"
+      height="40"
+    />
+  ),
 };
 
 export default LangageImages;
