@@ -68,7 +68,7 @@ const projets = [
     DescriptionCorps:
       "Jeu de différence est un jeu où l'on confronte deux mots et où l'on donne leurs différences. On pourra par la suite également créer ses propres parties en proposant 2 mots qui se ressemblent et trouver leur différence pour que les autres utilisateurs puissent jouer à leurs parties. Il faudra cependant pour pouvoir le tester un compte utilisateur.",
     Langages: ["mysql", "js", "html", "css", "php"],
-    GitHubRepo: "",
+    GitHubRepo: "https://github.com/Gaby269/TER_2023_Jeux_de_Differences",
     Site: "https://jeuxdedifferences.000webhostapp.com/",
   },
   {

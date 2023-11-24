@@ -68,7 +68,7 @@ const projets = [
     DescriptionCorps:
       "Game of differences is a game in which two words are pitted against each other and their differences revealed. You can also create your own games by proposing 2 words that are similar and finding their difference so that other users can play their games. It will be necessary however for the user account.",
     Langages: ["mysql", "js", "html", "css", "php"],
-    GitHubRepo: "",
+    GitHubRepo: "https://github.com/Gaby269/TER_2023_Jeux_de_Differences",
     Site: "https://jeuxdedifferences.000webhostapp.com/",
   },
   {
