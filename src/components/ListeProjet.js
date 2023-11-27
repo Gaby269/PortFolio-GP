@@ -50,6 +50,7 @@ export default function ListeProjet() {
                 Langages={projet.Langages}
                 GitHubRepo={projet.GitHubRepo}
                 Site={projet.Site}
+                Video={projet.Video}
               />
             ))
           ) : (
@@ -76,6 +77,7 @@ export default function ListeProjet() {
                       Langages={projet.Langages}
                       GitHubRepo={projet.GitHubRepo}
                       Site={projet.Site}
+                      Video={projet.Video}
                     />
                   ))}
                 </tbody>

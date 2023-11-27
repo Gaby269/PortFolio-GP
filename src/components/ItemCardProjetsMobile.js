@@ -12,6 +12,7 @@ function CardMobile({
   Langages,
   GitHubRepo,
   Site,
+  Video,
 }) {
   return (
     <div className="card card-mobile">
@@ -66,6 +67,29 @@ function CardMobile({
               >
                 <title>Lien icon</title>
                 <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+              </svg>
+            </a>
+          )}
+          {Video && ( // Vérifie si Site n'est pas vide
+            <a className="lienProjet lienSite" href={Video}>
+              <svg
+                role="img"
+                viewBox="0 -960 960 960"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="black"
+              >
+                <title>Movie icon</title>
+                <link
+                  xmlns=""
+                  type="text/css"
+                  id="dark-mode"
+                  rel="stylesheet"
+                  href=""
+                />
+                <style xmlns="" type="text/css" id="dark-mode-custom-style" />
+                <path d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z" />
               </svg>
             </a>
           )}

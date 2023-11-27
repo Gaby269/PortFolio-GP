@@ -22,6 +22,7 @@ const projets = [
     Langages: ["html", "css", "js", "firebase"],
     GitHubRepo: "https://github.com/Gaby269/Bibliotheques-des-POINTEAU",
     Site: "",
+    Video: "",
   },
   {
     Titre: "Gestion de tournois sportifs",
@@ -34,6 +35,8 @@ const projets = [
     Langages: ["symfony", "js", "css", "boostrap"],
     GitHubRepo: "https://github.com/Gaby269/Gestion-Tournois-Sportif",
     Site: "",
+    Video:
+      "https://photos.onedrive.com/share/DFF3F7C11C623ED4!124?cid=DFF3F7C11C623ED4&resId=DFF3F7C11C623ED4!124&authkey=!AEXX5_B3ovr9Cms&ithint=video&e=en70mP",
   },
   {
     Titre: "CatsQuizz and DogsQuizz",
@@ -46,6 +49,7 @@ const projets = [
     Langages: ["html", "css", "axentix", "js"],
     GitHubRepo: "https://github.com/Gaby269/Breed-CatsDogs-Quizz",
     Site: "https://gaby269.github.io/Breed-CatsDogs-Quizz",
+    Video: "",
   },
   {
     Titre: "Portfolio",
@@ -58,6 +62,7 @@ const projets = [
     Langages: ["reactJS", "css"],
     GitHubRepo: "https://github.com/Gaby269/PortFolio-GP",
     Site: "https://gaby269.github.io/PortFolio-GP/",
+    Video: "",
   },
   {
     Titre: "Jeu de Différence",
@@ -70,6 +75,7 @@ const projets = [
     Langages: ["mysql", "js", "html", "css", "php"],
     GitHubRepo: "https://github.com/Gaby269/TER_2023_Jeux_de_Differences",
     Site: "https://jeuxdedifferences.000webhostapp.com/",
+    Video: "",
   },
   {
     Titre: "Application Mobile Interimaire",
@@ -82,6 +88,8 @@ const projets = [
     Langages: ["android", "firebase", "java"],
     GitHubRepo: "https://github.com/Gaby269/Application-Mobile-Interimaire",
     Site: "",
+    Video:
+      "https://photos.onedrive.com/share/DFF3F7C11C623ED4!127?cid=DFF3F7C11C623ED4&resId=DFF3F7C11C623ED4!127&authkey=!ABhtyi2dHvTXjBA&ithint=video&e=IuEdgG",
   },
   {
     Titre: "Inférence sur le langage naturel",
@@ -95,6 +103,7 @@ const projets = [
     Langages: ["python"],
     GitHubRepo: "https://github.com/Gaby269/Projet_Inference_Langage_Naturel",
     Site: "",
+    Video: "",
   },
   {
     Titre: "Machine Learning",
@@ -107,6 +116,7 @@ const projets = [
     Langages: ["python"],
     GitHubRepo: "https://github.com/ArnaudCs/Projet-ML",
     Site: "",
+    Video: "",
   },
   {
     Titre: "Gestion d'un Zoo/Parc animalier",
@@ -119,6 +129,7 @@ const projets = [
     Langages: ["oracle", "plsql"],
     GitHubRepo: "https://github.com/Gaby269/Data-Warehouse-Zoo",
     Site: "",
+    Video: "",
   },
   {
     Titre: "Coloration de graphe répartis",
@@ -131,6 +142,7 @@ const projets = [
     Langages: ["c"],
     GitHubRepo: "https://github.com/Gaby269/Coloration-de-graphe-repartis",
     Site: "",
+    Video: "",
   },
   {
     Titre: "Advent Of Code",
@@ -143,6 +155,7 @@ const projets = [
     Langages: ["python"],
     GitHubRepo: "https://github.com/Gaby269/AdventOfCode",
     Site: "https://adventofcode.com/",
+    Video: "",
   },
   {
     Titre: "Jeu de la vie",
@@ -155,6 +168,7 @@ const projets = [
     Langages: ["js", "html", "css"],
     GitHubRepo: "https://github.com/Gaby269/Jeu-de-la-vie",
     Site: "",
+    Video: "",
   },
 ];
 
