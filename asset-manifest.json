@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/PortFolio-GP/static/css/main.799d67c1.css",
-    "main.js": "/PortFolio-GP/static/js/main.769ef5bc.js",
+    "main.js": "/PortFolio-GP/static/js/main.7dd1d4c2.js",
     "static/js/787.595b4aa7.chunk.js": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js",
     "static/media/logo_dw_zoo.png": "/PortFolio-GP/static/media/logo_dw_zoo.1829dc95e354bb2cf30f.png",
     "static/media/logo_catsquizz.png": "/PortFolio-GP/static/media/logo_catsquizz.48a1a308b4ef5910d86a.png",
     "static/media/CV-POINTEAU-Gabrielle_fr.pdf": "/PortFolio-GP/static/media/CV-POINTEAU-Gabrielle_fr.10035b61a72d6ac98418.pdf",
     "static/media/CV_Gabrielle_POINTEAU_en.pdf": "/PortFolio-GP/static/media/CV_Gabrielle_POINTEAU_en.d23571899361358dccaf.pdf",
+    "static/media/logo_mariage.png": "/PortFolio-GP/static/media/logo_mariage.59cb2a87ed9b2b086e02.png",
     "static/media/logo_fakenews.jpg": "/PortFolio-GP/static/media/logo_fakenews.938a85e43f20823189ef.jpg",
     "static/media/logo_gpgh.png": "/PortFolio-GP/static/media/logo_gpgh.c92fe68d71c62178a947.png",
     "static/media/CV_fr.png": "/PortFolio-GP/static/media/CV_fr.4d66d58af2fc82cfa608.png",
@@ -19,11 +20,11 @@
     "static/media/logoGP.png": "/PortFolio-GP/static/media/logoGP.27c57c40f44abdb44f4e.png",
     "index.html": "/PortFolio-GP/index.html",
     "main.799d67c1.css.map": "/PortFolio-GP/static/css/main.799d67c1.css.map",
-    "main.769ef5bc.js.map": "/PortFolio-GP/static/js/main.769ef5bc.js.map",
+    "main.7dd1d4c2.js.map": "/PortFolio-GP/static/js/main.7dd1d4c2.js.map",
     "787.595b4aa7.chunk.js.map": "/PortFolio-GP/static/js/787.595b4aa7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.799d67c1.css",
-    "static/js/main.769ef5bc.js"
+    "static/js/main.7dd1d4c2.js"
   ]
 }
