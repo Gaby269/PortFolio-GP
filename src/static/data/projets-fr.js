@@ -9,8 +9,22 @@ import gts from "../images/logo_gts.png";
 import ml from "../images/logo_fakenews.jpg";
 import biblioP from "../images/logo_biblio_pointeau.png";
 import zoo from "../images/logo_dw_zoo.png";
+import mariage from "../images/logo_mariage.png";
 
 const projets = [
+  {
+    Titre: "Affectations par mariage stable",
+    Image: mariage,
+    Alt: "MaraigeStable",
+    Date: "Novembre 2023",
+    DescriptionTitre: "Projet d'Aide à la décision",
+    DescriptionCorps:
+      "Ce projet consiste à réaliser en groupe, l’implémantation d’un système d’aide à la décision. Il s’agissait pour cela de proposer une implémentation de l’algorithme des mariages stables et une méthode d’évaluation de satisfaction des préférences, ainsi qu’une interface pour pouvoir effectuer des tests sur des listes de préférences générées aléatoirement.",
+    Langages: ["html", "css", "js"],
+    GitHubRepo: "https://github.com/Gaby269/Bibliotheques-des-POINTEAU",
+    Site: "",
+    Video: "",
+  },
   {
     Titre: "Bibliothèques des POINTEAU",
     Image: biblioP,
@@ -74,7 +88,7 @@ const projets = [
       "Jeu de différence est un jeu où l'on confronte deux mots et où l'on donne leurs différences. On pourra par la suite également créer ses propres parties en proposant 2 mots qui se ressemblent et trouver leur différence pour que les autres utilisateurs puissent jouer à leurs parties. Il faudra cependant pour pouvoir le tester un compte utilisateur.",
     Langages: ["mysql", "js", "html", "css", "php"],
     GitHubRepo: "https://github.com/Gaby269/TER_2023_Jeux_de_Differences",
-    Site: "https://jeuxdedifferences.000webhostapp.com/",
+    Site: "",
     Video: "",
   },
   {

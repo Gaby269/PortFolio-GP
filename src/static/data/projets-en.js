@@ -9,8 +9,22 @@ import gts from "../images/logo_gts.png";
 import ml from "../images/logo_fakenews.jpg";
 import biblioP from "../images/logo_biblio_pointeau.png";
 import zoo from "../images/logo_dw_zoo.png";
+import mariage from "../images/logo_mariage.png";
 
 const projets = [
+  {
+    Titre: "Assignments by stable marriage",
+    Image: mariage,
+    Alt: "MaraigeStable",
+    Date: "Novembre 2023",
+    DescriptionTitre: "Decision Aids Project",
+    DescriptionCorps:
+      "This project involved working as a group to implement a decision aids system. The aim was to propose an implementation of the stable marriage algorithm and a method for evaluating preference satisfaction, as well as an interface for carrying out tests on randomly generated lists of preferences.",
+    Langages: ["html", "css", "js"],
+    GitHubRepo: "https://github.com/Gaby269/Bibliotheques-des-POINTEAU",
+    Site: "",
+    Video: "",
+  },
   {
     Titre: "POINTEAU libraries",
     Image: biblioP,
