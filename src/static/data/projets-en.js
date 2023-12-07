@@ -21,7 +21,7 @@ const projets = [
     DescriptionCorps:
       "This project involved working as a group to implement a decision aids system. The aim was to propose an implementation of the stable marriage algorithm and a method for evaluating preference satisfaction, as well as an interface for carrying out tests on randomly generated lists of preferences.",
     Langages: ["html", "css", "js"],
-    GitHubRepo: "https://github.com/Gaby269/Bibliotheques-des-POINTEAU",
+    GitHubRepo: "https://github.com/Gaby269/Affectations_Mariages_stables",
     Site: "",
     Video: "",
   },
@@ -33,7 +33,7 @@ const projets = [
     DescriptionTitre: "Personal web programming project",
     DescriptionCorps:
       "This project involves giving my family access to the books, CDs, sheet music, etc. that everyone has in their library. This would make it easier to avoid duplicating gifts. So this project is a web project using firebase to store the data.",
-    Langages: ["html", "css", "js", "firebase"],
+    Langages: ["html", "css", "js", "firpà)oebase"],
     GitHubRepo: "https://github.com/Gaby269/Bibliotheques-des-POINTEAU",
     Site: "",
     Video: "",

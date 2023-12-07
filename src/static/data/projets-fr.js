@@ -21,7 +21,7 @@ const projets = [
     DescriptionCorps:
       "Ce projet consiste à réaliser en groupe, l’implémantation d’un système d’aide à la décision. Il s’agissait pour cela de proposer une implémentation de l’algorithme des mariages stables et une méthode d’évaluation de satisfaction des préférences, ainsi qu’une interface pour pouvoir effectuer des tests sur des listes de préférences générées aléatoirement.",
     Langages: ["html", "css", "js"],
-    GitHubRepo: "https://github.com/Gaby269/Bibliotheques-des-POINTEAU",
+    GitHubRepo: "https://github.com/Gaby269/Affectations_Mariages_stables",
     Site: "",
     Video: "",
   },
